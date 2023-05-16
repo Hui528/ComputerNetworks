@@ -1,0 +1,10 @@
+all:
+	gcc -o serverA serverA.c
+	gcc -o serverB serverB.c
+	gcc -o servermain servermain.c
+serverA:
+	gcc -o serverA serverA.c
+serverB:
+	gcc -o serverB serverB.c
+servermain:
+	gcc -o servermain servermain.c
